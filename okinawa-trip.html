@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>沖繩五天四夜｜家庭自駕行程</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#F8EEDC;--card:#FFFBF3;--ink:#5A3A22;--sub:#9A7656;--or:#E8832F;--or2:#FBD9B5;--br:#8B5A33;--line:#EBD9BC;--tag:#F3E2C4;--ol:#6F7B3F;--ol2:#E6EBCB;--dot:#EBD3AE;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2B1F17;--card:#3A2B20;--ink:#F6E6CF;--sub:#C9A67F;--or:#F09A4D;--or2:#5A3A22;--br:#D9A66F;--line:#54402F;--tag:#4A3727;--ol:#B5C26F;--ol2:#434A2A;--dot:#3A2B20}}
+:root[data-theme="dark"]{--bg:#2B1F17;--card:#3A2B20;--ink:#F6E6CF;--sub:#C9A67F;--or:#F09A4D;--or2:#5A3A22;--br:#D9A66F;--line:#54402F;--tag:#4A3727;--ol:#B5C26F;--ol2:#434A2A;--dot:#3A2B20}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg) radial-gradient(var(--dot) 2px,transparent 2.5px) 0 0/22px 22px;color:var(--ink);font-family:"Zen Maru Gothic","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.65;font-size:15px}
+.wrap{max-width:560px;margin:0 auto;padding:0 14px 60px}
+header{text-align:center;padding:28px 10px 16px}
+header h1{margin:0;font-size:26px;color:var(--br)}
+header p{margin:6px 0;color:var(--sub);font-size:13px}
+.info{background:var(--card);border:2px dashed var(--or);border-radius:18px;padding:12px 14px;font-size:13px;text-align:left}
+.info b{color:var(--or)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:10px 0}
+nav button{flex:none;border:2px solid transparent;font:inherit;color:var(--br);background:var(--card);padding:6px 15px;border-radius:99px;font-size:13px;font-weight:700;cursor:pointer}
+nav button.on{background:var(--or);color:#fff;border-color:var(--or)}
+nav{background:transparent;backdrop-filter:blur(6px)}
+.day{display:none;margin-top:8px}.day.on{display:block}
+.dh{background:var(--or);color:#fff;border-radius:20px 20px 6px 6px;padding:12px 16px}
+.dh small{opacity:.9;font-size:12px}
+.dh h2{margin:0;font-size:18px}
+.tl{background:var(--card);border-radius:6px 6px 20px 20px;padding:6px 14px 10px;border:1px solid var(--line)}
+.it{display:flex;gap:10px;padding:10px 0;border-bottom:1px dotted var(--line)}
+.it:last-child{border:0}
+.tm{flex:none;width:68px;font-size:12px;font-weight:700;color:var(--or);padding-top:2px}
+.bd{flex:1;min-width:0}
+.bd b{font-size:15px}
+.nt{font-size:12.5px;color:var(--sub)}
+.dr{font-size:12px;color:var(--sub);padding:2px 0 2px 78px;border-bottom:1px dotted var(--line)}
+.map{display:inline-block;margin-top:4px;font-size:12px;font-weight:700;text-decoration:none;color:var(--br);background:var(--or2);padding:2px 10px;border-radius:99px}
+.map:active{background:var(--or);color:#fff}
+.sec{margin:14px 0 6px;font-weight:700;color:var(--br)}
+.fd{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 12px;margin-bottom:8px}
+.fd .t{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.pill{font-size:11px;padding:0 8px;border-radius:99px;font-weight:700;background:var(--or);color:#fff}
+.pill.b{background:var(--ol);color:#fff}.fd.alt{background:var(--ol2);border-color:var(--ol);border-style:dashed}.map.ol{background:var(--ol);color:#fff}.pg{display:flex;justify-content:space-between;gap:8px;margin-top:16px}.pg button{font:inherit;font-weight:700;font-size:13px;border:0;border-radius:99px;background:var(--or);color:#fff;padding:8px 18px;cursor:pointer}
+.fd p{margin:2px 0;font-size:12.5px;color:var(--sub)}
+.tip{background:var(--or2);border-radius:14px;padding:8px 12px;font-size:12.5px;margin-top:8px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 14px;margin-top:18px}
+.box h3{margin:0 0 8px;color:var(--br);font-size:16px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td{padding:5px 0;border-bottom:1px dotted var(--line)}
+td:not(:first-child){text-align:right}
+label{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;padding:4px 0}
+input{accent-color:var(--or);margin-top:5px}
+footer{text-align:center;color:var(--sub);font-size:12px;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>🍁 沖繩五天四夜 🍁</h1>
+<p>2026/10/21（三）～ 10/25（日）｜6 人家庭自駕</p>
+<div class="info" id="info"></div>
+</header>
+<nav id="nav"></nav>
+<main id="main"></main>
+<div class="box"><h3>🎟️ 門票預算</h3>
+<table><tr><td>沖繩美麗海水族館</td><td>¥2,180</td><td>¥13,080</td></tr>
+<tr><td>CAVE OKINAWA</td><td>¥1,200</td><td>¥7,200</td></tr>
+<tr><td>沖繩世界文化王國</td><td>¥2,000</td><td>¥12,000</td></tr>
+<tr><td><b>合計</b></td><td><b>¥5,380</b></td><td><b>¥32,280</b></td></tr></table>
+<div class="nt" style="margin-top:6px">成人單價 × 6 人，實際依購票時公告及優惠為準。</div></div>
+<div class="box"><h3>✅ 出發前待辦</h3><div id="todo"></div></div>
+<footer>🍁 旅途愉快，慢慢走、多休息 🍁</footer>
+</div>
+<script>
+const G=q=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);
+const STAY='3170-499 Ishikawa, Uruma, Okinawa 904-1106';
+document.getElementById('info').innerHTML='<b>住宿</b>：<a class="map" target="_blank" rel="noopener" href="'+G(STAY)+'">📍 民宿（四晚同一間）</a><br><b>租車</b>：10/21 20:30 取車、10/25 15:30 還車<br><b>原則</b>：順路、符合營業時間優先，其他美食放備選，並顧及阿公的步行與休息。';
+const D=[
+{n:'DAY 1',d:'10/21（三）',t:'抵達沖繩＆晚餐採買',
+it:[['14:55','✈️ 桃園機場出發','泰越捷 VZ568','桃園國際機場'],
+['17:20','✈️ 抵達那霸機場','入境、領行李','那霸機場'],
+['待確認','🚐 租車接駁車','國內線 3 樓、6 號出口附近集合'],
+['','🚗 機場 → 租車門市｜約 20 分鐘'],
+['20:30','🚗 取車','依最新租車訂單'],
+['','🚗 租車門市 → HAMA SUSHI｜約 50～70 分鐘'],
+['21:30～22:30','🍣 HAMA SUSHI 宇流麻石川店','晚餐：迴轉壽司、熟食、麵食','はま寿司 うるま石川店'],
+['','🚗 約 5～15 分鐘'],
+['22:00 前','🛒 San-A Ishikawa City','買早餐、飲料；若關門則取消','サンエー石川シティ'],
+['晚上','🏠 前往民宿','宇流麻市石川',STAY]],
+f:[['HAMA SUSHI 宇流麻石川店','迴轉壽司、拉麵、炸物，適合家庭','10:00–24:00','可官方系統預約候位，六人座位須確認','はま寿司 うるま石川店',1]],
+tip:'20:30 才取車，當晚不建議特別趕超市，先吃晚餐、順利入住最重要。'},
+{n:'DAY 2',d:'10/22（四）',t:'美麗海水族館＆古宇利島',
+it:[['07:15','🏠 民宿出發','',''],
+['','🚗 民宿 → CAMEL｜約 70～90 分鐘'],
+['08:30～09:00','🥪 CAMEL SANDWICH & SMOOTHIE','早餐：三明治、冰沙，可外帶','CAMEL SANDWICH & SMOOTHIE 本部'],
+['','🚗 約 10～20 分鐘'],
+['09:20～11:50','🐋 沖繩美麗海水族館 🎟️','👴 館內有座位、電梯','沖縄美ら海水族館'],
+['','🚗 約 30～40 分鐘，經古宇利大橋'],
+['12:30～13:30','🍤 KOURI SHRIMP','午餐：蒜香蝦飯','Kouri Shrimp 古宇利島'],
+['13:30～14:30','🏝️ 古宇利島、古宇利大橋','海景拍照','古宇利大橋'],
+['','🚗 約 65～85 分鐘'],
+['16:00～17:00','🛒 おんなの駅 なかゆくい市場','採買晚餐食材','おんなの駅 なかゆくい市場'],
+['','🚗 市場 → 民宿｜約 20～30 分鐘'],
+['18:00～20:00','🍳 民宿煮晚餐、一起用餐','👴 可先休息',STAY],
+['','🚗 約 15～25 分鐘'],
+['20:30～22:00','🛍️ MEGA Don Quijote 宇流麻店','購物','MEGAドン・キホーテ うるま店']],
+f:[['CAMEL SANDWICH & SMOOTHIE','三明治、冰沙，適合外帶','約 07:00–14:00／15:00','預約方式待確認','CAMEL SANDWICH & SMOOTHIE 本部',1],
+['KOURI SHRIMP','夏威夷料理／蒜香蝦飯','11:00–16:00','建議現場點餐','Kouri Shrimp 古宇利島',1],
+['幸ちゃんそば','沖繩麵／燉豬肉','10:00–15:00','不接受預約','幸ちゃんそば 沖縄',0],
+['The Sinmay','咖啡甜點／黑糖飲品','約 10:00–16:30','未確認','The Sinmay 沖縄',0]],
+tip:'👴 古宇利島海灘地面可能不平整，不一定要下沙灘，安排觀景與休息即可。'},
+{n:'DAY 3',d:'10/23（五）',t:'鐘乳石洞＆美國村＆港川＆AEON',
+it:[['08:45','🏠 民宿出發'],
+['','🚗 約 10～15 分鐘'],
+['09:00～09:45','🪨 CAVE OKINAWA 鐘乳石洞 🎟️','👴 洞內濕滑、有階梯','ケイブオキナワ'],
+['','🚗 約 35～50 分鐘'],
+['10:30～11:45','🌴 美國村 American Village','逛街、拍照','アメリカンビレッジ 北谷'],
+['','🚗 約 15～25 分鐘'],
+['12:00～13:00','🍚 米や松倉','午餐：日式定食，建議預約六人','米や松倉 沖縄'],
+['','🚗 約 5～15 分鐘'],
+['13:15～13:45','☕ REEF KNOT COFFEE','手沖咖啡、復古布丁','REEF KNOT COFFEE 沖縄'],
+['','🚗 約 15～25 分鐘'],
+['14:15～15:45','🏘️ 港川外人住宅','小店、咖啡廳、拍照','港川外人住宅'],
+['','🚗 約 25～40 分鐘'],
+['16:30～19:00','🛍️ AEON MALL Okinawa Rycom','購物、商場內晚餐','イオンモール沖縄ライカム'],
+['','🚗 約 25～40 分鐘'],
+['晚上','🏠 返回民宿','',STAY]],
+f:[['米や松倉','日式定食／白飯、魚肉主菜與小菜','約 11:00–15:00','可預約','米や松倉 沖縄',1],
+['REEF KNOT COFFEE','手沖咖啡、復古布丁','12:00–18:00','未確認，座位有限','REEF KNOT COFFEE 沖縄',1],
+['AEON Rycom 美食街','多國料理，晚餐選擇多','各店不同','依店家而定','イオンモール沖縄ライカム フードコート',1],
+['hoppepan','鹹甜麵包，可外帶當早餐','10:00–19:00，週一至三休','不接受預約','hoppepan 沖縄',0],
+['Pork Tamago Onigiri 北谷店','豬肉蛋飯糰','依分店公告','未確認','ポークたまごおにぎり 北谷店',0],
+['客多美咖啡 北谷 58 號店','喫茶／咖啡、吐司、輕食','約 07:00–23:00','待確認','コーヒーショップ クタミ 北谷',0],
+['CAMEL 北谷分店','三明治／早餐、外帶輕食','約 07:00–14:00','待確認','CAMEL SANDWICH 北谷',0]],
+tip:'👴 若阿公不方便進鐘乳石洞，可由一位家人陪同在外休息。這天景點較多，REEF KNOT COFFEE 可視體力取消。'},
+{n:'DAY 4',d:'10/24（六）',t:'沖繩世界＆神社＆國際通',
+it:[['07:45','🏠 民宿出發'],
+['','🚗 約 60～80 分鐘'],
+['09:00～11:30','🌺 沖繩世界文化王國 🎟️','玉泉洞、琉球文化村','おきなわワールド'],
+['','🚗 約 15～25 分鐘'],
+['11:50～12:40','🍔 JEF Burger 與那原店','午餐：沖繩特色苦瓜漢堡','JEF 与那原店'],
+['','🚗 約 20～30 分鐘'],
+['13:15～13:45','⛩️ 達摩寺','參拜','達磨寺 豊見城'],
+['','🚗 約 20～30 分鐘'],
+['14:15～14:45','⛩️ 波上宮','參拜、拍照','波上宮'],
+['','🚗 約 10～20 分鐘，停付費停車場'],
+['15:15～16:15','🐟 第一牧志公設市場','海鮮、當地特色食材','第一牧志公設市場'],
+['','🚶 步行約 5～10 分鐘'],
+['16:15～16:45','🛍️ 世豊商店','黑糖、零食、伴手禮','世豊商店 国際通り'],
+['16:45～17:45','🛍️ 國際通','購物、Blue Seal 冰淇淋','国際通り'],
+['','🚶 步行約 5～15 分鐘'],
+['18:00～19:15','🍽️ LUCKY MAXIMUM','晚餐：沖繩創意料理，建議預約','LUCKY MAXIMUM 那覇'],
+['','🚗 國際通 → 民宿｜約 50～70 分鐘'],
+['晚上','🏠 返回民宿','',STAY]],
+f:[['JEF Burger 與那原店','苦瓜漢堡、薯條','約 07:00–23:00','現場點餐為主','JEF 与那原店',1],
+['LUCKY MAXIMUM','阿古豬、海鮮、多人分享菜','17:00–24:00','可預約，可能有座席費','LUCKY MAXIMUM 那覇',1],
+['Blue Seal 國際通店','冰淇淋／沖繩特色口味（點心）','依分店公告','現場購買','ブルーシール 国際通り店',1],
+['イチバノソバ','沖繩麵／特色湯頭、豬肉配料','週六約 11:00–15:00','待確認','イチバノソバ 那覇',0],
+['JEF Sunrise 那霸店','苦瓜漢堡','約 09:00–20:00','待確認','JEF サンライズ那覇店',0],
+['Pork Tamago Onigiri 牧志店','豬肉蛋飯糰','依分店公告','待確認','ポークたまごおにぎり 牧志店',0],
+['焼肉ホルモンのぼり苑 豊見城店','日式燒肉／牛舌、燒肉、內臟','約 17:00–24:00','可網路訂位','焼肉ホルモンのぼり苑 豊見城店',0]],
+tip:'👴 玉泉洞有長距離步道及階梯，建議阿公只參觀文化村。下午國際通也可減少逛街時間，避免太疲累。'},
+{n:'DAY 5',d:'10/25（日）',t:'豐崎購物＆返回台灣',
+it:[['08:45','🏠 民宿退房','整理行李',STAY],
+['','🚗 約 55～75 分鐘'],
+['10:00～11:45','🛍️ iias 沖繩豐崎','購物、最後採買','iias沖縄豊崎'],
+['','🚗 約 15～25 分鐘'],
+['12:15～13:15','🍤 by・The・Shrimp','午餐：蒜香蝦飯、海景','by The Shrimp 瀬長島'],
+['13:15～13:45','🌊 瀨長島短暫拍照','👴 有坡道與階梯','瀬長島ウミカジテラス'],
+['','🚗 約 15～25 分鐘，以新訂單地址為準'],
+['14:15～15:00','🚗 加油、整理行李','預留緩衝'],
+['15:30 前','🚗 完成還車','最新租車時間'],
+['','🚐 租車門市 → 那霸機場｜約 20 分鐘＋等車'],
+['16:00～16:30','✈️ 機場報到、托運行李','','那霸機場'],
+['18:40','✈️ 那霸機場起飛','台灣虎航 IT233'],
+['19:30','✈️ 抵達桃園機場','TPE T1','桃園國際機場']],
+f:[['by・The・Shrimp','蒜香蝦、奶油檸檬蝦飯','約 11:00–21:00，待確認','建議現場點餐','by The Shrimp 瀬長島',1],
+['糸滿漁民食堂','海鮮定食／鮮魚、魚湯、奶油燒魚','11:30–15:00，晚餐另有時段','不接受預約','糸満漁民食堂',0],
+['Pork Tamago Onigiri 那霸機場店','豬肉蛋飯糰','依機場分店公告','現場購買','ポークたまごおにぎり 那覇空港店',0]],
+tip:''}];
+const TODO=['確認租車公司接駁發車時間與新訂單的取還車門市地址','確認 DAY 1 HAMA SUSHI 晚間用餐與六人候位方式','確認 DAY 2 CAMEL 早上營業時間','預約 DAY 3 米や松倉，10/23（五）12:00，6 人','預約 DAY 4 LUCKY MAXIMUM，10/24（六）18:00，6 人','確認阿公是否適合進入 CAVE OKINAWA 與玉泉洞','確認民宿樓梯、浴室及停車便利性','購買景點門票與 eSIM'];
+const mk=q=>q?'<br><a class="map" target="_blank" rel="noopener" href="'+G(q)+'">📍 Google Map</a>':'';
+let nav='',html='';
+D.forEach((x,i)=>{
+nav+='<button data-i="'+i+'">'+x.n+'</button>';
+html+='<section class="day" id="d'+i+'"><div class="dh"><small>'+x.n+'｜'+x.d+'</small><h2>🍁 '+x.t+'</h2></div><div class="tl">';
+x.it.forEach(r=>{
+if(!r[0]){html+='<div class="dr">'+r[1]+'</div>';return}
+html+='<div class="it"><div class="tm">'+r[0]+'</div><div class="bd"><b>'+r[1]+'</b>'+(r[2]?'<div class="nt">'+r[2]+'</div>':'')+mk(r[3])+'</div></div>'});
+html+='</div><div class="sec">🍽️ 當天美食</div>';
+x.f.forEach(f=>{
+html+='<div class="fd'+(f[5]?'':' alt')+'"><div class="t"><span class="pill'+(f[5]?'':' b')+'">'+(f[5]?'優先':'備選')+'</span><b>'+f[0]+'</b></div><p>'+f[1]+'</p><p>🕒 '+f[2]+'｜📞 '+f[3]+'</p><a class="map'+(f[5]?'':' ol')+'" target="_blank" rel="noopener" href="'+G(f[4])+'">📍 Google Map</a></div>'});
+if(x.tip)html+='<div class="tip">'+x.tip+'</div>';
+html+='<div class="pg">'+(i>0?'<button data-go="'+(i-1)+'">‹ 上一天</button>':'<span></span>')+'<button data-go="'+(i+1)+'">'+(i<4?'下一天 ›':'預算待辦 ›')+'</button></div></section>'});
+nav+='<button data-i="5">🎟️ 預算待辦</button>';document.getElementById('nav').innerHTML=nav;
+document.getElementById('main').innerHTML=html;
+document.getElementById('todo').innerHTML=TODO.map(t=>'<label><input type="checkbox"><span>'+t+'</span></label>').join('');
+const m=document.getElementById('main'),s=document.createElement('section');s.className='day';s.id='d5';
+document.querySelectorAll('.box').forEach(b=>s.appendChild(b));m.appendChild(s);
+const bs=[...document.querySelectorAll('#nav button')],ds=[...document.querySelectorAll('.day')];
+function go(i){ds.forEach((d,k)=>d.classList.toggle('on',k==i));bs.forEach((b,k)=>b.classList.toggle('on',k==i));bs[i].scrollIntoView({inline:'center',block:'nearest'});window.scrollTo(0,0);try{history.replaceState(null,'','#d'+i)}catch(e){}}
+bs.forEach((b,k)=>b.onclick=()=>go(k));
+document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(+b.dataset.go));
+go(Math.max(0,Math.min(5,+(location.hash.slice(2))||0)));
+</script>
+</body>
+</html>
